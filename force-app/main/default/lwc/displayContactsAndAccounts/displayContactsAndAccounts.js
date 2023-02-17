@@ -15,6 +15,7 @@ export default class DisplayContactsAndAccounts extends LightningElement {
         if(data.length>0){
             this.isDataPresent = true;
             this.data = data;
+            console.log('hahah');
         }else{
             this.false = true;
         }
