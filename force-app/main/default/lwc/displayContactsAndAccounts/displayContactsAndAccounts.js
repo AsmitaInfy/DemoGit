@@ -12,7 +12,7 @@ export default class DisplayContactsAndAccounts extends LightningElement {
    connectedCallback(){
     getAccountContactDataJs().then( data => {
         console.log(' === '+ data);
-        if(data.length>0){
+        if(data.length<0){
             this.isDataPresent = true;
             this.data = data;
             console.log('hahah');
