@@ -1,12 +1,15 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "name": "myDeveloperOrg",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "56.0"
-}
+    "packageDirectories": [
+      {
+        "path": "force-app",
+        "default": true
+      }
+    ],
+  
+    "name": "mydevNew",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "56.0"
+  }
+
+  
