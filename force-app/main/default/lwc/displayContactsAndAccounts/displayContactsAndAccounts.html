@@ -1,0 +1,9 @@
+<template>
+    <template if:true={isDataPresent}>
+        <lightning-datatable key-field="id" data={data} columns={columns}> </lightning-datatable>
+    </template>
+    <template if:false={isDataPresent}>
+        <p>No records to display</p>
+    </template>
+
+</template>
