@@ -19,7 +19,8 @@ export default class DisplayContactsAndAccounts extends LightningElement {
             this.false = true;
         }
     }).catch(error =>{
-        console.log('An error occurred : :' + JSON.stringify(error));
+        console.log('An error occurred :' + JSON.stringify(error));
+        console.log('hello world');
     });
    }
 }
